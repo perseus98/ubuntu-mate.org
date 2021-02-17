@@ -9,17 +9,14 @@ group :jekyll_plugins do
 
     # i18n Support
     gem "jekyll-polyglot"
-end
 
-# WebP Generator
-# https://github.com/sverrirs/jekyll-webp
-#gem "jekyll-webp"
+    # Get modification date of pages
+    # https://github.com/gjtorikian/jekyll-last-modified-at
+    gem "jekyll-last-modified-at"
+end
 
 # Emojis
 gem "jemoji"
-
-# Sitemap
-gem "jekyll-sitemap"
 
 # External Testing
 gem "html-proofer"

@@ -1,7 +1,7 @@
 #
 # Translators:
 # Luke Horwell, 2020
-# Norbert X, 2020
+# Norbert X, 2021
 #
 #. extracted from _data/strings.yml
 #, fuzzy
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-12 16:42+0100\n"
+"POT-Creation-Date: 2021-02-15 11:27+0100\n"
 "PO-Revision-Date: 2020-08-14 20:49+0000\n"
-"Last-Translator: Norbert X, 2020\n"
+"Last-Translator: Norbert X, 2021\n"
 "Language-Team: Russian (https://www.transifex.com/ubuntu-mate/teams/110208/"
 "ru/)\n"
 "Language: ru\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.2.0\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
 
 #: homepage
 msgid "Home Page"
@@ -815,6 +815,42 @@ msgstr "Оперативный план"
 msgid "Media Preparations"
 msgstr "Подготовка носителей"
 
+#: about_features
+msgid "About & Features"
+msgstr "Описание и возможности"
+
+#: whats_new
+msgid "What's New?"
+msgstr "Что нового?"
+
+#: install_guide
+msgid "Install Guide"
+msgstr "Инструкция по установке"
+
+#: compatibility
+msgid "Compatibility Check"
+msgstr "Проверка совместимости"
+
+#: compatible_releases
+msgid "Compatible Releases"
+msgstr "Совместимые версии"
+
+#: compatible_but_slow
+msgid "Compatible but performance is poor. Not recommended."
+msgstr "Совместимо, но производительность низкая. Не рекомендуется."
+
+#: model
+msgid "Model"
+msgstr "Модель"
+
+#: ram
+msgid "RAM"
+msgstr "ОЗУ"
+
+#: instruction_set
+msgid "Instruction Set"
+msgstr "Набор инструкций"
+
 #: founders_title
 msgid "Founders"
 msgstr "Основатели"
@@ -847,6 +883,18 @@ msgstr "Известные участники"
 msgid "These people made history with the distro."
 msgstr "Эти люди вошли в историю с дистрибутивом."
 
+#: contrib2_title
+msgid "Contributors & Special Thanks"
+msgstr "Авторы и особые благодарности"
+
+#: contrib2_desc
+msgid ""
+"These people have made significant, singular contributions or have served as "
+"team members in the past."
+msgstr ""
+"Эти люди внесли значительный, уникальный вклад или были членами команды в "
+"прошлом."
+
 #: team_ubuntu
 msgid "Ubuntu Member"
 msgstr "Участник Ubuntu"
@@ -858,6 +906,10 @@ msgstr "Работает в Canonical"
 #: team_mate
 msgid "MATE Desktop Team"
 msgstr "Команда рабочего стола MATE"
+
+#: team_debian
+msgid "Debian Member"
+msgstr "Участник Debian"
 
 #: team_coder
 msgid "Code Contributor"
@@ -891,6 +943,14 @@ msgstr "Исправление ошибок"
 msgid "Package Maintainer"
 msgstr "Поддержка пакетов"
 
+#: team_rpi_contrib
+msgid "Raspberry Pi Contributor"
+msgstr "Участник Raspberry Pi"
+
+#: team_accessibility
+msgid "Accessibility Improvements"
+msgstr "Улучшения доступности"
+
 #: quote_general_title
 msgid "What the Internet is saying..."
 msgstr "Что говорит Интернет ..."
@@ -899,7 +959,7 @@ msgstr "Что говорит Интернет ..."
 msgid "What the YouTubers are showcasing..."
 msgstr "Что демонстрируют на YouTube..."
 
-#: ports
+#: device_ports
 msgid "Device Ports"
 msgstr "Поддержка устройств"
 
@@ -907,13 +967,9 @@ msgstr "Поддержка устройств"
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: raspberry_pi_history
-msgid "Raspberry Pi Change Log"
-msgstr "Raspberry Pi список изменений"
-
-#: umpc
-msgid "Ultra Mobile PCs (UMPCs)"
-msgstr "Ультра-мобильные ПК (УМПК)"
+#: learn_more_rpi
+msgid "Learn more about our Raspberry Pi release"
+msgstr "Узнать больше о нашей версии для Raspberry Pi"
 
 #: js_required
 msgid "JavaScript needs to be enabled in your browser to use this form."

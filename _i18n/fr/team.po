@@ -1,0 +1,47 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-13 14:37+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
+
+#: pages/team.md:9
+msgid "title: Team"
+msgstr "title: L'Équipe"
+
+#: pages/team.md:13
+msgid "## Kickstarters"
+msgstr "## Kickstarters"
+
+#: pages/team.md:16
+msgid ""
+"These initial efforts helped the project officially support different\n"
+"ventures."
+msgstr ""
+"Ces efforts initiaux ont aidé le projet à supporter officiellement "
+"différentes\n"
+"initiatives."
+
+#: pages/team.md:18
+msgid ""
+"* **Adam Smith:** Created the initial PowerPC build of Ubuntu MATE\n"
+"* **Rohith Madhavan:** Created the initial Raspberry Pi 2 build of Ubuntu "
+"MATE"
+msgstr ""
+"* **Adam Smith:** A créé la version initiale d'Ubuntu MATE pour PowerPC\n"
+"* **Rohith Madhavan:** A créé la version initiale d'Ubuntu MATE pour "
+"Raspberry Pi 2"

@@ -1,0 +1,584 @@
+#
+# Translators:
+# Yoshida Shouyou, 2021
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-13 14:23+0100\n"
+"PO-Revision-Date: 2020-05-21 21:09+0000\n"
+"Last-Translator: Yoshida Shouyou, 2021\n"
+"Language-Team: French (https://www.transifex.com/ubuntu-mate/teams/110208/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 3.3.0\n"
+
+#: pages/raspberry-pi.md:8
+msgid "title: Raspberry Pi"
+msgstr "title: Raspberry Pi"
+
+#: pages/raspberry-pi.md:12
+msgid "# Ubuntu MATE for Raspberry Pi"
+msgstr "# Ubuntu MATE pour Raspberry Pi"
+
+#: pages/raspberry-pi.md:17
+msgid ""
+"Ubuntu MATE 20.04 is available for Raspberry Pi with separate images for\n"
+"`armhf` (ARMv7 32-bit) and `arm64` (ARMv8 64-bit). We have done what we can "
+"to\n"
+"optimise the builds for the Raspberry Pi without sacrificing the full "
+"desktop\n"
+"environment Ubuntu MATE provides on PC."
+msgstr ""
+"Ubuntu MATE 20.04 est disponible pour le Raspberry Pi avec des images "
+"séparées pour\n"
+"`armhf` (ARMV7 32-bit) et `arm64` (ARMv8 64-bit). Nous avons fait ce que "
+"nous avons pu\n"
+"pour optimiser ces versions pour le Raspberry Pi sans sacrifier "
+"l'environnement\n"
+"de bureau d'Ubuntu MATE auquel nous sommes habitués sur PC."
+
+#: pages/raspberry-pi.md:24
+msgid ""
+"Ubuntu MATE for the Raspberry Pi provides a complete, familiar, desktop "
+"environment\n"
+"that can be used for basic desktop computing. It is also of interest to "
+"makers and\n"
+"device hackers who want to target [Ubuntu](https://ubuntu.com) for their "
+"projects.\n"
+"You can prototype homebrew ARMv7 or ARMv8 based IoT devices in a comfortable "
+"desktop\n"
+"environment, including building and testing your apps as [snaps](https://"
+"snapcraft.io).\n"
+"The full Ubuntu archive is available to you."
+msgstr ""
+"Ubuntu MATE pour Raspberry Pi fournit un environnement de bureau familier et "
+"complet\n"
+"qui peut être utilisé pour des tâches informatiques basiques. Il est "
+"également digne d'intérêt\n"
+"pour les fabricants et les bidouilleurs qui ciblent [Ubuntu](https://ubuntu."
+"com) pour leurs\n"
+"projets. Vous pouvez créer des prototypes maison d'objets connectés basés "
+"sur ARMv7 ou ARMv8\n"
+"dans un environnement de bureau confortable, y compris créer et tester vos "
+"applications en tant\n"
+"que [snaps](https://snapcraft.io).\n"
+"L'archive complète d'Ubuntu est disponible pour vous."
+
+#: pages/raspberry-pi.md:30
+msgid ""
+"For hobbyist projects, you can stick with Ubuntu MATE for \"deployment\". "
+"But, if\n"
+"you have something more professional in mind then the applications and snaps "
+"you've\n"
+"prototyped with Ubuntu MATE can be used with [Ubuntu Server](https://ubuntu."
+"com/download/raspberry-pi)\n"
+"or [Ubuntu Core](https://www.ubuntu.com/core). You might want to check out "
+"the\n"
+"[Ubuntu Appliance Portfolio](https://ubuntu.com/appliance) too."
+msgstr ""
+"Pour des projets d'amateurs, vous pouvez rester avec Ubuntu MATE pour le "
+"\"déploiement\". Mais, si\n"
+"vous avez quelque chose de plus professionnel à l'esprit, alors les "
+"applications et snaps dont\n"
+"vous avez fait un prototype avec Ubuntu MATE peuvent être utilisées avec "
+"[Ubuntu Server](https://ubuntu.com/download/raspberry-pi)\n"
+"ou [Ubuntu Core](https://www.ubuntu.com/core). Peut-être voudrez-vous aussi "
+"jeter un œil au [Portfolio de dispositifs d'Ubuntu](https://ubuntu.com/"
+"appliance)."
+
+#: pages/raspberry-pi.md:34
+msgid ""
+"{:.center .small}\n"
+"![Ubuntu MATE running on the Raspberry Pi 4](/images/ports/09_raspberrypi."
+"png)\n"
+"**Ubuntu MATE running on the Raspberry Pi 4**"
+msgstr ""
+"{:.center .small}\n"
+"![Ubuntu MATE sur le Raspberry Pi 4](/images/ports/09_raspberrypi.png)\n"
+"**Ubuntu MATE sur le Raspberry Pi 4**"
+
+#: pages/raspberry-pi.md:37
+msgid "## Features"
+msgstr "## Fonctionnalités"
+
+#: pages/raspberry-pi.md:39
+msgid "High-level features of these images are:"
+msgstr "Les fonctionnalités de haut niveau de ces images sont:"
+
+#: pages/raspberry-pi.md:54
+msgid ""
+"  * Ubuntu kernel.\n"
+"    * Performance optimised by the Ubuntu Kernel team.\n"
+"    * Regularly security patches by the Ubuntu Security team.\n"
+"  * VC4/V3D (fkms) driver is enabled by default.\n"
+"    * `fbturbo` driver is available if you want it, but limited to 2D "
+"accelerated window moving/scrolling on Raspberry Pi (using the BCM2835 DMA "
+"Controller).\n"
+"  * Automatic online filesystem expansion.\n"
+"  * Ethernet & WiFi (*where available*)\n"
+"  * Bluetooth (*where available*)\n"
+"  * Audio out via 3.5mm analog audio jack or HDMI\n"
+"  * Video out via Composite or HDMI\n"
+"  * GPIO access via [GPIO Zero](https://gpiozero.readthedocs.io) and "
+"[WiringPi](http://wiringpi.com/).\n"
+"  * Support for [USB Booting](https://www.raspberrypi.org/documentation/"
+"hardware/raspberrypi/bootmodes/msd.md) is available for Ubuntu MATE 20.10 or "
+"newer.\n"
+"  * Automatic first-boot file system resizing.\n"
+"  * First-boot setup wizard guides you through creating a user account and "
+"configuring WiFi."
+msgstr ""
+"  * Noyau d'Ubuntu .\n"
+"    * Performances optimisées par l'équipe du Noyau d'Ubuntu.\n"
+"    * Correctifs de sécurité fréquents par l'équipe Sécurité d'Ubuntu.\n"
+"  * Le pilote VC4/V3D (fkms) est activé par défaut.\n"
+"    * Le pilote `fbturbo` est disponible si vous le souhaitez, mais limité "
+"au déplacement/défilement des fenêtres accéléré en 2D sur Raspberry Pi "
+"(utilisant le contrôleur BCM2835 DMA).\n"
+"  * Expansion automatique en ligne du système de fichiers.\n"
+"  * Ethernet & WiFi (*si disponible*)\n"
+"  * Bluetooth (*si disponible*)\n"
+"  * Sortie audio par le jack audio analogique 3.5mm ou HDMI\n"
+"  * Sortie vidéo par Composite ou HDMI\n"
+"  * GPIO access par [GPIO Zero](https://gpiozero.readthedocs.io) and "
+"[WiringPi](http://wiringpi.com/).\n"
+"  * Prise en charge du [démarrage par USB](https://www.raspberrypi.org/"
+"documentation/hardware/raspberrypi/bootmodes/msd.md) est disponible depuis "
+"Ubuntu MATE 20.10.\n"
+"  * Redimensionnement automatique du système de fichiers au premier "
+"démarrage..\n"
+"  * L'assistant de mise en route au premier démarrage vous guide pour la "
+"création d'un compte utilisateur et la configuration du WiFi."
+
+#: pages/raspberry-pi.md:63
+msgid ""
+"<!--\n"
+"  * Hardware acceleration:\n"
+"    *  `ffmpeg` has hardware assisted video decoding and encoding.\n"
+"    *  VLC has hardware assisted video decoding.\n"
+"  * Additional software:\n"
+"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-"
+"IFGH-6589) is available for install.\n"
+"    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/"
+"getting-started-with-minecraft-pi) is available for install.\n"
+"-->"
+msgstr ""
+"<!--\n"
+"  * Accélération matérielle:\n"
+"    *  `ffmpeg` dispose de l'accélération matérielle pour le décodage et "
+"l'encodage des vidéos.\n"
+"    *  VLC dispose de l'accélération matérielle pour le décodage des "
+"vidéos.\n"
+"  * Logiciels additionnels\n"
+"    * [Steam Link](https://support.steampowered.com/kb_article.php?ref=6153-"
+"IFGH-6589) est disponible à l'installation.\n"
+"    * [Minecraft: Pi Edition](https://projects.raspberrypi.org/en/projects/"
+"getting-started-with-minecraft-pi) est disponible à l'installation.\n"
+"-->"
+
+#: pages/raspberry-pi.md:67
+msgid "## Hardware Recommendations"
+msgstr "## Recommandations Matérielles"
+
+#: pages/raspberry-pi.md:71
+msgid ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 8GB RAM|Argon One Case|SanDisk Extreme 128 GB microSDXC|\n"
+"|[![Raspberry Pi 4 8GB RAM](/images/ports/pi4-8GB.webp)](https://geni.us/"
+"QjSiQA6)|[![Argon One Case](/images/ports/argon-one.webp)](https://geni.us/"
+"lvbbi8n)|[![SanDisk Extreme 128 GB microSDXC](/images/ports/SanDiskExtreme."
+"webp)](https://geni.us/oRQKPJ)|"
+msgstr ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 8GO RAM|Boîtier Argon One|SanDisk Extreme 128 GO microSDXC|\n"
+"|[![Raspberry Pi 4 8GO RAM](/images/ports/pi4-8GB.webp)](https://geni.us/"
+"QjSiQA6)|[![Boîtier Argon One](/images/ports/argon-one.webp)](https://geni."
+"us/lvbbi8n)|[![SanDisk Extreme 128 GO microSDXC](/images/ports/"
+"SanDiskExtreme.webp)](https://geni.us/oRQKPJ)|"
+
+#: pages/raspberry-pi.md:75
+msgid ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 4GB RAM|Argon NEO Case|Kingston 64 GB microSDXC Canvas Go "
+"Plus|\n"
+"|[![Raspberry Pi 4 4GB RAM](/images/ports/pi4-4GB.webp)](https://geni.us/"
+"wKRpG)|[![Argon NEO Case](/images/ports/argon-neo.webp)](https://geni.us/"
+"DcxV)|[![Kingston 64 GB microSDXC Canvas Go Plus](/images/ports/"
+"KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|"
+msgstr ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 4GO RAM|Boîtier Argon NEO|Kingston 64 GO microSDXC Canvas Go "
+"Plus|\n"
+"|[![Raspberry Pi 4 4GO RAM](/images/ports/pi4-4GB.webp)](https://geni.us/"
+"wKRpG)|[![Boîtier Argon NEO](/images/ports/argon-neo.webp)](https://geni.us/"
+"DcxV)|[![Kingston 64 GO microSDXC Canvas Go Plus](/images/ports/"
+"KingstonCanvasGoPlus.webp)](https://geni.us/Jelmu)|"
+
+#: pages/raspberry-pi.md:79
+msgid ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 2GB RAM|Flirc Case|Samsung EVO Plus 32 GB microSDHC UHS-I "
+"U1|\n"
+"|[![Raspberry Pi 4 2GB RAM](/images/ports/pi4-2GB.webp)](https://geni.us/"
+"GN70L)|[![Flirc Case](/images/ports/flirc.webp)](https://geni.us/QvssBp)|[!"
+"[Samsung EVO Plus 32 GB microSDHC UHS-I U1](/images/ports/SamsungEvoPlus."
+"png)](https://geni.us/AKAsg)|"
+msgstr ""
+"{:.transparent .icons}\n"
+"|Raspberry Pi 4 2GO RAM|Boîtier Flirc|Samsung EVO Plus 32 GO microSDHC UHS-I "
+"U1|\n"
+"|[![Raspberry Pi 4 2GO RAM](/images/ports/pi4-2GB.webp)](https://geni.us/"
+"GN70L)|[![Boîtier Flirc](/images/ports/flirc.webp)](https://geni.us/QvssBp)|"
+"[![Samsung EVO Plus 32 GO microSDHC UHS-I U1](/images/ports/SamsungEvoPlus."
+"png)](https://geni.us/AKAsg)|"
+
+#: pages/raspberry-pi.md:83
+msgid "## Additional features"
+msgstr "## Fonctionnalités Supplémentaires"
+
+#: pages/raspberry-pi.md:85
+msgid "### USB Booting"
+msgstr "### Démarrage par USB"
+
+#: pages/raspberry-pi.md:87
+msgid ""
+"Ubuntu MATE 20.10 and newer support USB booting, **but Ubuntu MATE 20.04 "
+"does not**."
+msgstr ""
+"La prise en charge du démarrage par USB est présente depuis Ubuntu 20.10, "
+"**contrairement à Ubuntu MATE 20.04 qui ne le permet pas**."
+
+#: pages/raspberry-pi.md:89
+msgid "### Compute Module 4"
+msgstr "### Compute Module 4"
+
+#: pages/raspberry-pi.md:94
+msgid ""
+"If you have a [Compute Module 4](https://www.raspberrypi.org/products/"
+"compute-module-4/?variant=raspberry-pi-cm4001000)\n"
+"you can enable the USB2 outputs on the [Compute Module 4 IO Board](https://"
+"www.raspberrypi.org/products/compute-module-4-io-board/),\n"
+"assuming your Compute Module is plugged into such a board, by un-commenting "
+"the following line in\n"
+"`/boot/firmware/config.txt`."
+msgstr ""
+"Si vous disposez d'un [Compute Module 4](https://www.raspberrypi.org/"
+"products/compute-module-4/?variant=raspberry-pi-cm4001000)\n"
+"vous pouvez activer les sorties USB2 sur la [Carte Compute Module 4 IO]"
+"(https://www.raspberrypi.org/products/compute-module-4-io-board/),\n"
+"si votre Compute Module est branché sur une telle carte en décommentant la "
+"ligne suivante dans\n"
+"`/boot/firmware/config.txt`."
+
+#: pages/raspberry-pi.md:96
+msgid "    #dtoverlay=dwc2,dr_mode=host"
+msgstr "    #dtoverlay=dwc2,dr_mode=host"
+
+#: pages/raspberry-pi.md:98
+msgid "#### Enable USB boot for Raspberry Pi 4"
+msgstr "#### Activer le démarrage par USB sur Raspberry Pi 4"
+
+#: pages/raspberry-pi.md:100
+msgid "To enable USB mass storage boot on a Raspberry Pi 4 follow these steps:"
+msgstr ""
+"Pour activer le démarrage sur un appareil de stockage de grande capacité en "
+"USB sur un Raspberry Pi 4, veuillez suivre ces étapes:"
+
+#: pages/raspberry-pi.md:102
+msgid ""
+"  * [Enable optional USB boot on Raspberry Pi 4](https://ubuntu.com/"
+"tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#4-optional-usb-"
+"boot)"
+msgstr ""
+"  * [Activer le démarrage optionnel par USB sur Raspberry Pi 4](https://"
+"ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#4-"
+"optional-usb-boot)"
+
+#: pages/raspberry-pi.md:104
+msgid "### Enable USB boot for Raspberry Pi 2, 3 and 3+"
+msgstr "### Activer le démarrage par USB sur Raspberry Pi 2, 3 et 3+"
+
+#: pages/raspberry-pi.md:109
+msgid ""
+"The Raspberry Pi 3, 3+ and Pi 2 v1.2 with the same BCM2837 SoC as the Pi 3,\n"
+"are capable of booting from a USB drive. For the Pi 2 and 3 you'll first\n"
+"need to [program USB boot mode](https://www.raspberrypi.org/documentation/"
+"hardware/raspberrypi/bootmodes/msd.md),\n"
+"this is unnecessary on the Pi 3+ as USB booting is enabled by default."
+msgstr ""
+"Les Raspberry Pi Pi 3, 3+ et Pi 2 v1.2 avec le même SoC BCM2837 SoC que le "
+"Pi 3,\n"
+"peuvent démarrer sur un disque USB. Pour les Pi 2 et 3 vous devez tout "
+"d'abord [programmer le mode de démarrage par USB](https://www.raspberrypi."
+"org/documentation/hardware/raspberrypi/bootmodes/msd.md),\n"
+"ce n'est pas nécessaire sur le Pi 3+ comme le démarrage par USB est activé "
+"par défaut."
+
+#: pages/raspberry-pi.md:111
+msgid "### Firmware"
+msgstr "### Firmware"
+
+#: pages/raspberry-pi.md:115
+msgid ""
+"The GPU firmware partition is mounted at `/boot/firmware`. The files\n"
+"`/boot/firmware/config.txt` and `/boot/firmware/cmdline.txt` contain\n"
+"the system configuration and kernel command line options respectively."
+msgstr ""
+"La partition du firmware GPU est montée à `/boot/firmware`. Les fichiers\n"
+"`/boot/firmware/config.txt` et `/boot/firmware/cmdline.txt` contiennent\n"
+"respectivement la configuration du système et les options en ligne de "
+"commande du noyau."
+
+#: pages/raspberry-pi.md:117
+msgid "### SSH"
+msgstr "### SSH"
+
+#: pages/raspberry-pi.md:120
+msgid ""
+"The OpenSSH server is not installed by default. Simply install it to\n"
+"to enable SSH."
+msgstr ""
+"Le serveur OpenSSH n'est plus installé par défaut. Installez-le simplement\n"
+"pour activer le SSH."
+
+#: pages/raspberry-pi.md:122
+msgid "    sudo apt install openssh-server"
+msgstr "    sudo apt install openssh-server"
+
+#: pages/raspberry-pi.md:126
+msgid ""
+"If you install SSH then you might also want to install `sshguard`\n"
+"which is highly optimised and well suited for use on the Raspberry Pi\n"
+"to protect from brute force attacks against SSH."
+msgstr ""
+"Si vous installez SSH, vous devriez peut-être également installer `sshguard` "
+"qui est hautement optimisé et très adapté à l'utilisation sur RaspberryPi\n"
+"pour vous protéger des attaques brute-force contre le SSH."
+
+#: pages/raspberry-pi.md:128
+msgid "    sudo apt install sshguard"
+msgstr "    sudo apt install sshguard"
+
+#: pages/raspberry-pi.md:131
+msgid ""
+"<!--\n"
+"### Steam Link for Raspberry Pi"
+msgstr ""
+"<!--\n"
+"### Steam Link pour Raspberry Pi"
+
+#: pages/raspberry-pi.md:136
+msgid ""
+"The Steam Link app extends Steam Link functionality to the Raspberry Pi\n"
+"Model B 3 and 3+ and uses the same streaming technology as Valve's\n"
+"Steam Link, allowing you to play your favorite games and even spectate\n"
+"VR games right from your Raspberry Pi."
+msgstr ""
+"L'application Steam Link étend la fonctionnalité du Steam Link aux Raspberry "
+"Pi\n"
+"Model B 3 et 3 + et utilise la même technologie de diffusion que le Steam "
+"Link de Valve, vous permettant de jouer à vos jeux préférés et même assister "
+"à des jeux VR dès maintenant sur votre Raspberry Pi."
+
+#: pages/raspberry-pi.md:138
+msgid "Can be installed via `sudo apt install steamlink`"
+msgstr "Peut être installé avec `sudo apt install steamlink`"
+
+#: pages/raspberry-pi.md:140
+msgid "You can learn more about Steam Link for Raspberry Pi from Valve:"
+msgstr ""
+"Vous pouvez en apprendre plus sur Steam Link pour Raspberry Pi avec Valve:"
+
+#: pages/raspberry-pi.md:142
+msgid ""
+"  * [Steam Link App for Raspberry Pi](https://support.steampowered.com/"
+"kb_article.php?ref=6153-IFGH-6589)"
+msgstr ""
+"  * [App Steam Link Pour Raspberry Pi](https://support.steampowered.com/"
+"kb_article.php?ref=6153-IFGH-6589)"
+
+#: pages/raspberry-pi.md:144
+msgid "### Minecraft: Pi Edition"
+msgstr "### Minecraft: Pi Edition"
+
+#: pages/raspberry-pi.md:148
+msgid ""
+"Minecraft: Pi Edition is a cut down version of Minecraft for the Raspberry "
+"Pi.\n"
+"It is based on an old version of Minecraft Pocket Edition and offers "
+"language\n"
+"bindings for Python."
+msgstr ""
+"Minecraft: Pi Edition est une version allégée de Minecraft pour le Raspberry "
+"Pi.\n"
+"Elle est basée sur une vieille version de Minecraft Pocket Edition et "
+"propose\n"
+"des liens de langage pour Python."
+
+#: pages/raspberry-pi.md:150
+msgid "Can be installed via `sudo apt install minecraft-pi`"
+msgstr "Peut être installé par `sudo apt install minecraft-pi`"
+
+#: pages/raspberry-pi.md:153
+msgid ""
+"You can learn more about how to control the player, manually build with "
+"blocks\n"
+"and use the Python interface to manipulate the world around you from the "
+"Raspberry Pi Foundation."
+msgstr ""
+"Vous pouvez en apprendre plus à propos du contrôle du joueur, construire "
+"manuellement avec des blocs\n"
+"et utiliser l'interface Python pour manipuler le monde autour de vous à "
+"partir de la fondation Raspberry Pi."
+
+#: pages/raspberry-pi.md:156
+msgid ""
+"  * [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/"
+"projects/getting-started-with-minecraft-pi)\n"
+"-->"
+msgstr ""
+"  * [Démarrer avec Minecraft Pi](https://projects.raspberrypi.org/en/"
+"projects/getting-started-with-minecraft-pi)\n"
+"-->"
+
+#: pages/raspberry-pi.md:158
+msgid "### Redirecting audio output"
+msgstr "### Rediriger la sortie audio"
+
+#: pages/raspberry-pi.md:160
+msgid ""
+"If you have issues with audio, you may try un-commenting the following line "
+"in `/boot/firmware/config.txt`:"
+msgstr ""
+"Si vous avez des problèmes avec l'audio, essayez de décommenter la ligne "
+"suivante dans `/boot/firmware/config.txt`:"
+
+#: pages/raspberry-pi.md:162
+msgid "    #hdmi_drive=2"
+msgstr "    #hdmi_drive=2"
+
+#: pages/raspberry-pi.md:166
+msgid ""
+"This forces the HDMI output into HDMI mode instead of DVI; which doesn't "
+"support\n"
+"audio output. You can also configure the system to output to a particular "
+"audio\n"
+"device."
+msgstr ""
+"Cela force la sortie HDMI en mode HDMI plutôt que DVI: qui ne supporte pas "
+"la sortie\n"
+"audio. Vous pouvez également configurer le système pour rediriger la sortie "
+"vers un périphérique\n"
+"audio particulier."
+
+#: pages/raspberry-pi.md:168
+msgid "#### For HDMI"
+msgstr "#### Pour l'HDMI"
+
+#: pages/raspberry-pi.md:170
+msgid "    sudo amixer cset numid=3 2"
+msgstr "    sudo amixer cset numid=3 2"
+
+#: pages/raspberry-pi.md:172
+msgid "#### For 3.5mm audio jack"
+msgstr "#### Pour le jack audio 3.5mm"
+
+#: pages/raspberry-pi.md:174
+msgid "    sudo amixer cset numid=3 1"
+msgstr "    sudo amixer cset numid=3 1"
+
+#: pages/raspberry-pi.md:177
+msgid ""
+"<!--\n"
+"### Hardware accelerated video"
+msgstr ""
+"<!--\n"
+"### Accélération matérielle des vidéos"
+
+#: pages/raspberry-pi.md:181
+msgid ""
+"Most videos will play with hardware acceleration using VLC which\n"
+"is pre-installed in Ubuntu MATE. To use hardware accelerated video playback\n"
+"with `ffplay` you must specify the `h264_mmal` codec."
+msgstr ""
+"La plupart des vidéos seront lues en utilisant l'accélération matérielle "
+"avec VLC\n"
+"qui est pré-installé dans Ubuntu MATE. Pour utiliser l'accélération "
+"matérielle lors de la lecture des vidéos\n"
+"avec `ffplay` vous devez spécifier le codec `h264_mmal` ."
+
+#: pages/raspberry-pi.md:183
+msgid "    `ffplay -vcodec h264_mmal video.mp4`"
+msgstr "    `ffplay -vcodec h264_mmal video.mp4`"
+
+#: pages/raspberry-pi.md:187
+msgid ""
+"Hardware accelerated playback on the Raspberry Pi works by overlaying the\n"
+"video directly to the screen. Therefore there are no onscreen controls for\n"
+"playback control. You'll need to use the ffmpeg keyboard shortcuts."
+msgstr ""
+"L'accélération matérielle de la lecture sur Raspberry Pi fonctionne en "
+"superposant\n"
+"la vidéo directement sur l'écran. De ce fait, il n'y a pas d'affichage des "
+"contrôles sur l'écran pour \n"
+"contrôler la lecture. Vous devrez utiliser les raccourcis clavier de ffmpeg."
+
+#: pages/raspberry-pi.md:189
+msgid ""
+"  * [ffplay keyboard controls](https://ffmpeg.org/ffplay.html#toc-While-"
+"playing)"
+msgstr ""
+"  * [contrôles clavier de ffplay](https://ffmpeg.org/ffplay.html#toc-While-"
+"playing)"
+
+#: pages/raspberry-pi.md:191
+msgid ""
+"`ffmpeg` also offer hardware enabled video encoding via the `h264_omx` "
+"encoder. Here is an example:"
+msgstr ""
+"`ffmpeg` propose également l'encodage vidéo matériel avec l'encodeur "
+"`h264_omx`. Voici un exemple:"
+
+#: pages/raspberry-pi.md:193
+msgid ""
+"    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx output."
+"mp4`"
+msgstr ""
+"    `ffmpeg -f video4linux2 -i /dev/video0 -s 1280x720 -c:v h264_omx output."
+"mp4`"
+
+#: pages/raspberry-pi.md:197
+msgid ""
+"However if you have MPEG-2 or VC-1 video video files then **you will need "
+"MPEG-2\n"
+"and/or VC-1 licenses from the [Raspberry Pi Store](http://www.raspberrypi."
+"com/license-keys/)**.\n"
+"-->"
+msgstr ""
+"Toutefois, si vous avez des vidéos en MPEG-2 ou VC-1,  **vous aurez besoin "
+"des licences MPEG-2\n"
+"et/ou VC-1 du [magasin Raspberry Pi](http://www.raspberrypi.com/license-"
+"keys/)**."
+
+#: pages/raspberry-pi.md:201
+msgid "## Feedback and Improvements"
+msgstr "## Commentaires et Améliorations"
+
+#: pages/raspberry-pi.md:204
+msgid ""
+"These images are not official Ubuntu products and are community\n"
+"supported by the Ubuntu MATE team. Please post feedback and\n"
+"issues on the [dedicated community forum](https://ubuntu-mate.community/c/"
+"support/raspberry-pi)."
+msgstr ""
+"Ces images ne sont pas des produits officiels d'Ubuntu et sont supportés\n"
+"au niveau communautaire par l'équipe d'Ubuntu MATE. Veuillez poster vos\n"
+"commentaires et problèmes sur le [forum dédié de la communauté](https://"
+"ubuntu-mate.community/c/support/raspberry-pi)."

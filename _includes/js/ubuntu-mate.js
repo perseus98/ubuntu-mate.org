@@ -96,16 +96,6 @@ if (matchMedia("(prefers-color-scheme: dark)").matches === true) {
 }
 
 //--------------------------------------
-// i18n: /en/ link does not work
-//--------------------------------------
-if ($("html").attr("lang") != "en") {
-    var path = window.location.pathname.split("/");
-    path.shift()
-    path.shift();
-    $("#en-nav-btn").attr("href", "/" + path.join("/"));
-}
-
-//--------------------------------------
 // Blog index - hide older posts
 //--------------------------------------
 function show_all_posts() {
